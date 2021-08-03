@@ -1,0 +1,166 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+header {
+	nav {
+		background-color: #CDF0EA;
+	}
+}
+footer {
+	background-color: #F6C6EA;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+}
+.logoAjoNav {
+	width: 4rem;
+	height: 4rem;
+}
+.logoAjoFooter {
+	width: 4rem;
+	height: 4rem;
+	margin: 7px;
+}
+section {
+	background-color: #F9F9F9;
+}
+.contenidoFooter {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.iconosRedes {
+	text-decoration: none;
+	margin: 0.5rem;
+	font-size: 2rem;
+	color: black;
+}
+.infoFooter {
+	margin: 0.5rem;
+}
+.carousel-item {
+	height: 31rem;
+}
+.card-group {
+	margin: 40px;
+}
+.ensenanzaAjo{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	h4{
+		text-align: center;
+	}
+}
+.fotoMontessori{
+	margin-left: 1rem;
+}
+.fotoWaldorf{
+	margin-right: 1rem;
+}
+.tituloJuguetes {
+	text-align: center;
+	margin: 25px;
+	font-size: 48px;
+}
+.presentacionesQuienes {
+	display: flex;
+	flex-direction: column;
+	align-items: initial;
+	justify-content: space-between;
+}
+.presentacionAjo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	p {
+		text-align: center;
+	}
+}
+.fotoPresentacion {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.imagenAutito {
+	width: 350px;
+	height: 400x;
+}
+.imagenColectivo {
+	width: 350px;
+	height: 400x;
+	margin-bottom: 2rem;
+}
+p {
+	font-size: 30px;
+	padding: 15px;
+}
+.formularioContacto {
+	margin: 40px;
+}
+@media only screen and (max-width: 480px) {
+	.contenidoFooter {
+		flex-direction: column;
+		align-items: center;
+	}
+	.tituloJuguetes {
+		font-size: 30px;
+	}
+	p {
+		font-size: 20px;
+	}
+	.card-group {
+		margin: 0px;
+	}
+	.formularioContacto {
+		margin: 0px;
+	}
+	.imagenForm{
+		height: 233px;
+		width: 350px;
+		margin-bottom: 0.5rem;
+	}
+	.ensenanzaAjo{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.fotoWaldorf{
+			width: 400px;
+		}
+		.fotoMontessori{
+			width: 400px;
+		}
+	}
+	.carousel-item{
+		height: 15rem;
+	}
+}
+@media only screen and (max-width: 720px) {
+	.contenidoFooter {
+		flex-direction: column;
+		align-items: center;
+	}
+	.card-group {
+		margin: 0px;
+	}
+	.formularioContacto {
+		margin: 0px;
+	}
+	.carousel-item{
+		height: 20rem;
+	}
+}
