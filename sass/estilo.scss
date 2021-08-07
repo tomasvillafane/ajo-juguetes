@@ -15,7 +15,7 @@ header {
 	}
 }
 footer {
-	background-color: #F6C6EA;
+	background-color: rgb(253, 203, 202);
 	display: flex;
 	flex-direction: row;
 	justify-content: left;
@@ -109,7 +109,7 @@ p {
 	font-size: 30px;
 	padding: 15px;
 }
-.formularioContacto {
+.forms {
 	margin: 40px;
 }
 @media only screen and (max-width: 480px) {
@@ -145,6 +145,9 @@ p {
 		.fotoMontessori{
 			width: 400px;
 		}
+		h4{
+			margin-top: 10px;
+		}
 	}
 	.carousel-item{
 		height: 15rem;
@@ -158,10 +161,19 @@ p {
 	.card-group {
 		margin: 0px;
 	}
-	.formularioContacto {
-		margin: 0px;
+	.forms {
+		margin-right: 15px;
+		margin-left: 15px;
 	}
 	.carousel-item{
 		height: 20rem;
 	}
+	.ensenanzaAjo{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		h4{
+			margin-top: 10px;
+		}
+		}
 }
